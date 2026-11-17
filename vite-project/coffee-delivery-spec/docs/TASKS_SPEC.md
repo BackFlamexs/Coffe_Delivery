@@ -128,7 +128,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** ferramenta, prompt, resultado e justificativa documentados; logo aprovada.
 - **Teste/evidência:** inspeção em fundo claro/escuro e tamanho reduzido.
 - **Commit:** `feat: add ai-generated brand assets`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** logo-light/dark.svg em src/assets/brand; prompt e decisão em AI_USAGE (Interação 04)
+- **Status:** ✅ Concluída.
 
 ### T-012 — Criar paleta, tipografia e tokens
 - **Objetivo:** definir tokens semânticos e temas light/dark.
@@ -489,6 +490,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-008 | Concluída | alias @/ em vite e tsconfig; typecheck, 2 testes e build ok | `chore: organize application structure` |
 | 2026-11-17 | T-009 | Concluída | AppRoutes.test: 3 rotas + navegação sem reload (6 testes ok) | `feat: configure application routes` |
 | 2026-11-17 | T-010 | Concluída | direção registrada no PRD §10.1 e no README | `docs: define coffee brand direction` |
+| 2026-11-17 | T-011 | Concluída | logo-light/dark.svg em src/assets/brand; prompt e decisão em AI_USAGE (Interação 04) | `feat: add ai-generated brand assets` |
 
 ## Definition of Done global
 
