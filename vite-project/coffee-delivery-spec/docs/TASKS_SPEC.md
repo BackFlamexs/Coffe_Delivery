@@ -312,7 +312,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** refresh recupera dados válidos e storage corrompido não quebra a aplicação.
 - **Teste/evidência:** testes de hidratação, persistência e JSON inválido.
 - **Commit:** `feat: persist cart in local storage`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** cartStorage.test: hidratação, persistência, JSON inválido, formato antigo, storage que lança erro e sync entre abas (157 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-030 — Criar CartSummary
 - **Objetivo:** apresentar subtotal, taxa e total.
@@ -525,6 +526,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-026 | Concluída | CartBadge.test: 2 tipos com quantidades diferentes somam 5; atualiza após decremento/remoção | `feat: display total cart quantity` |
 | 2026-11-17 | T-027 | Concluída | Home.test: fluxo card → carrinho atualiza badge e acumula produto repetido | `feat: connect coffee cards to cart` |
 | 2026-11-17 | T-028 | Concluída | CartItem.test: incremento, decremento (ativo em 1), remoção e EmptyCart com link para Home | `feat: build cart item and empty state` |
+| 2026-11-17 | T-029 | Concluída | cartStorage.test: hidratação, persistência, JSON inválido, formato antigo, storage que lança erro e sync entre abas (157 testes ok) | `feat: persist cart in local storage` |
 
 ## Definition of Done global
 
