@@ -66,7 +66,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** aplicação inicia sem erro e TypeScript strict está habilitado.
 - **Teste/evidência:** `npm run dev`, `npm run build`, `npx tsc --noEmit`.
 - **Commit:** `chore: initialize vite react typescript app`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** tsc strict ok; npm run build ok (223 kB js)
+- **Status:** ✅ Concluída.
 
 ### T-006 — Configurar Git e arquivos de projeto
 - **Objetivo:** configurar `.gitignore`, scripts e estrutura inicial.
@@ -477,6 +478,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-002 | Concluída | registro de revisão na seção 19 do TECH_SPEC | `docs: review technical specification` |
 | 2026-11-17 | T-003 | Concluída | DP-01 a DP-07 resolvidas no PRD §12 e TECH §18 | `docs: approve product decisions` |
 | 2026-11-17 | T-004 | Concluída | plano revisado; ordem T-001→T-048 mantida | `docs: approve implementation task plan` |
+| 2026-11-17 | T-005 | Concluída | tsc strict ok; npm run build ok (223 kB js) | `chore: initialize vite react typescript app` |
 
 ## Definition of Done global
 
