@@ -438,7 +438,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** fluxo completo utilizável sem overflow horizontal.
 - **Teste/evidência:** inspeção em viewports definidos e registro de evidências.
 - **Commit:** `style: refine responsive layouts`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** Chrome headless: 3 rotas × 320/360/768/1024/1280px × 2 temas sem overflow horizontal (scrollWidth = clientWidth), com carrinho de 99 unidades e endereço longo; screenshots inspecionados
+- **Status:** ✅ Concluída.
 
 ### T-042 — Revisar acessibilidade
 - **Objetivo:** validar labels, foco, teclado, contraste e mensagens.
@@ -549,6 +550,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-038 | Concluída | ConfirmOrder.test: snapshot salvo antes de limpar carrinho, carrinho mantido se storage falhar, parseOrder rejeita dados adulterados | `feat: confirm order and clear cart safely` |
 | 2026-11-17 | T-039 | Concluída | Success.test: endereço, pagamento, itens com nome/preço do snapshot e totais (R$ 40,80) | `feat: display completed order summary` |
 | 2026-11-17 | T-040 | Concluída | Success.test: sem snapshot, JSON corrompido e snapshot adulterado mostram estado vazio com retorno à Home | `fix: handle missing order confirmation` |
+| 2026-11-17 | T-041 | Concluída | Chrome headless: 3 rotas × 320/360/768/1024/1280px × 2 temas sem overflow horizontal (scrollWidth = clientWidth), com carrinho de 99 unidades e endereço longo; screenshots inspecionados | `style: refine responsive layouts` |
 
 ## Definition of Done global
 
