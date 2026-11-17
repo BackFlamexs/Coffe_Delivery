@@ -252,7 +252,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** ações acumulam, incrementam, decrementam, removem e limpam corretamente.
 - **Teste/evidência:** testes unitários de cada ação e casos de borda.
 - **Commit:** `feat: implement immutable cart reducer`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** cartReducer.test: todas as ações, casos de borda e imutabilidade com deepFreeze
+- **Status:** ✅ Concluída.
 
 ### T-024 — Criar CartProvider e useCart
 - **Objetivo:** disponibilizar estado e operações globalmente.
@@ -513,6 +514,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-020 | Concluída | CoffeeCard.test: imagem, nome, descrição, preço, tags e adição com quantidade (96 testes ok) | `feat: build coffee product card` |
 | 2026-11-17 | T-021 | Concluída | CoffeeCatalog.test: 14 cards renderizados e filtro por categoria (100 testes ok) | `feat: render coffee catalog on home` |
 | 2026-11-17 | T-022 | Concluída | Home.test nos 2 temas; screenshots headless Chrome em 1280px e 390px sem overflow horizontal | `feat: complete responsive home page` |
+| 2026-11-17 | T-023 | Concluída | cartReducer.test: todas as ações, casos de borda e imutabilidade com deepFreeze | `feat: implement immutable cart reducer` |
 
 ## Definition of Done global
 
