@@ -282,7 +282,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** badge atualiza após cada ação e soma quantidades.
 - **Teste/evidência:** teste com mais de um tipo e quantidades diferentes.
 - **Commit:** `feat: display total cart quantity`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** CartBadge.test: 2 tipos com quantidades diferentes somam 5; atualiza após decremento/remoção
+- **Status:** ✅ Concluída.
 
 ### T-027 — Integrar adicionar ao carrinho na Home
 - **Objetivo:** ligar ação do CoffeeCard ao Context.
@@ -519,6 +520,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-023 | Concluída | cartReducer.test: todas as ações, casos de borda e imutabilidade com deepFreeze | `feat: implement immutable cart reducer` |
 | 2026-11-17 | T-024 | Concluída | CartContext.test: operações tipadas, referências estáveis e erro fora do provider | `feat: expose cart state through context` |
 | 2026-11-17 | T-025 | Concluída | cart.test + currency.test: vazio, múltiplos itens, centavos inteiros, ids inexistentes (134 testes ok) | `feat: add cart totals and currency utilities` |
+| 2026-11-17 | T-026 | Concluída | CartBadge.test: 2 tipos com quantidades diferentes somam 5; atualiza após decremento/remoção | `feat: display total cart quantity` |
 
 ## Definition of Done global
 
