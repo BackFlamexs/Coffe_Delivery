@@ -118,7 +118,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** conceito aprovado e documentado.
 - **Teste/evidência:** decisão registrada.
 - **Commit:** `docs: define coffee brand direction`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** direção registrada no PRD §10.1 e no README
+- **Status:** ✅ Concluída.
 
 ### T-011 — Gerar proposta de logo com IA
 - **Objetivo:** criar pelo menos uma proposta original de logo.
@@ -487,6 +488,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-007 | Concluída | npm test: 1 passed; build ok. jsdom fixado em ^26 por compatibilidade com Node 22.11 | `chore: add app and test dependencies` |
 | 2026-11-17 | T-008 | Concluída | alias @/ em vite e tsconfig; typecheck, 2 testes e build ok | `chore: organize application structure` |
 | 2026-11-17 | T-009 | Concluída | AppRoutes.test: 3 rotas + navegação sem reload (6 testes ok) | `feat: configure application routes` |
+| 2026-11-17 | T-010 | Concluída | direção registrada no PRD §10.1 e no README | `docs: define coffee brand direction` |
 
 ## Definition of Done global
 

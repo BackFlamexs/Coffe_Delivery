@@ -19,3 +19,8 @@ npm run preview    # serve o build local
 npm run lint       # ESLint
 npm run typecheck  # tsc sem emitir arquivos
 ```
+
+## Branding com IA
+
+- **Nome da marca:** Coffee Delivery
+- **Conceito:** xícara de café cujo vapor forma um pin de localização — café quentinho entregue onde você estiver.
