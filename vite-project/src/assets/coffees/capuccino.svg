@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <ellipse cx="60" cy="64" rx="56" ry="54" fill="#000" opacity="0.08"/>
+  <circle cx="60" cy="60" r="55" fill="#F1EEEA"/>
+  <circle cx="60" cy="60" r="47" fill="#E4DFD9"/>
+  <rect x="92" y="52" width="24" height="16" rx="8" fill="#FFFFFF" stroke="#E9E4DF" stroke-width="2"/>
+  <circle cx="60" cy="60" r="40" fill="#FFFFFF" stroke="#E9E4DF" stroke-width="2"/>
+  <circle cx="60" cy="60" r="34" fill="#3B2314"/>
+  <circle cx="60" cy="60" r="34" fill="#A8723F"/><circle cx="60" cy="60" r="26" fill="#EAD6BE"/><g fill="#5A341C"><circle cx="66.0" cy="60.0" r="1.4"/><circle cx="46.0" cy="72.8" r="1.4"/><circle cx="60.7" cy="52.0" r="1.4"/><circle cx="72.8" cy="76.7" r="1.4"/><circle cx="50.2" cy="58.3" r="1.4"/><circle cx="79.4" cy="47.7" r="1.4"/><circle cx="56.9" cy="71.6" r="1.4"/><circle cx="48.5" cy="37.8" r="1.4"/><circle cx="73.1" cy="64.8" r="1.4"/><circle cx="35.0" cy="70.3" r="1.4"/><circle cx="66.8" cy="45.5" r="1.4"/><circle cx="68.7" cy="87.7" r="1.4"/><circle cx="44.4" cy="51.0" r="1.4"/><circle cx="66.8" cy="58.5" r="1.4"/><circle cx="48.5" cy="76.4" r="1.4"/><circle cx="58.8" cy="51.1" r="1.4"/><circle cx="76.8" cy="74.2" r="1.4"/><circle cx="49.0" cy="60.4" r="1.4"/><circle cx="77.0" cy="43.1" r="1.4"/><circle cx="59.4" cy="73.0" r="1.4"/><circle cx="43.4" cy="40.0" r="1.4"/><circle cx="74.9" cy="62.0" r="1.4"/></g>
+</svg>

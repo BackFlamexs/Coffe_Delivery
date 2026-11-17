@@ -190,7 +190,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** todos os registros passam pelo tipo Coffee e imagens existem.
 - **Teste/evidência:** teste de integridade dos dados.
 - **Commit:** `feat: add typed coffee catalog`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** coffees.test: 14 cafés válidos, ids únicos, imagens existentes (61 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-018 — Criar Header e PageLayout
 - **Objetivo:** implementar cabeçalho e estrutura compartilhada.
@@ -501,6 +502,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-014 | Concluída | ThemeToggle.test: alternância, persistência, restauração e valores inválidos (43 testes ok) | `feat: add persistent light and dark themes` |
 | 2026-11-17 | T-015 | Concluída | build copia favicon.svg para dist; index.html referencia /favicon.svg | `feat: integrate brand and favicon` |
 | 2026-11-17 | T-016 | Concluída | typecheck ok; nenhum any em src/types | `feat: define application domain types` |
+| 2026-11-17 | T-017 | Concluída | coffees.test: 14 cafés válidos, ids únicos, imagens existentes (61 testes ok) | `feat: add typed coffee catalog` |
 
 ## Definition of Done global
 
