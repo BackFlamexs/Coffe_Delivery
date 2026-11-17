@@ -148,7 +148,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** estilos globais aplicados sem conflito.
 - **Teste/evidência:** build e inspeção nas rotas.
 - **Commit:** `style: configure global styles`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** build ok; GlobalStyle com reset, fontes Baloo 2/Roboto, foco visível e reduced-motion
+- **Status:** ✅ Concluída.
 
 ### T-014 — Criar ThemeProvider e ThemeToggle
 - **Objetivo:** alternar tema e persistir preferência.
@@ -493,6 +494,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-010 | Concluída | direção registrada no PRD §10.1 e no README | `docs: define coffee brand direction` |
 | 2026-11-17 | T-011 | Concluída | logo-light/dark.svg em src/assets/brand; prompt e decisão em AI_USAGE (Interação 04) | `feat: add ai-generated brand assets` |
 | 2026-11-17 | T-012 | Concluída | themes.test: mesmas chaves nos 2 temas e 14 pares texto/fundo ≥ 4.5:1 (36 testes ok) | `style: define design tokens and themes` |
+| 2026-11-17 | T-013 | Concluída | build ok; GlobalStyle com reset, fontes Baloo 2/Roboto, foco visível e reduced-motion | `style: configure global styles` |
 
 ## Definition of Done global
 
