@@ -106,7 +106,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** navegação entre três rotas sem reload.
 - **Teste/evidência:** teste de navegação ou verificação manual.
 - **Commit:** `feat: configure application routes`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** AppRoutes.test: 3 rotas + navegação sem reload (6 testes ok)
+- **Status:** ✅ Concluída.
 
 ## Fase 2 — Branding e design system
 
@@ -485,6 +486,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-006 | Concluída | git status limpo; typecheck e lint executados sem erro | `chore: configure project tooling` |
 | 2026-11-17 | T-007 | Concluída | npm test: 1 passed; build ok. jsdom fixado em ^26 por compatibilidade com Node 22.11 | `chore: add app and test dependencies` |
 | 2026-11-17 | T-008 | Concluída | alias @/ em vite e tsconfig; typecheck, 2 testes e build ok | `chore: organize application structure` |
+| 2026-11-17 | T-009 | Concluída | AppRoutes.test: 3 rotas + navegação sem reload (6 testes ok) | `feat: configure application routes` |
 
 ## Definition of Done global
 
