@@ -302,7 +302,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** item pode ser alterado/removido e estado vazio é claro.
 - **Teste/evidência:** testes de incremento, decremento e remoção.
 - **Commit:** `feat: build cart item and empty state`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** CartItem.test: incremento, decremento (ativo em 1), remoção e EmptyCart com link para Home
+- **Status:** ✅ Concluída.
 
 ### T-029 — Persistir carrinho no localStorage
 - **Objetivo:** recuperar e salvar carrinho com validação.
@@ -523,6 +524,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-025 | Concluída | cart.test + currency.test: vazio, múltiplos itens, centavos inteiros, ids inexistentes (134 testes ok) | `feat: add cart totals and currency utilities` |
 | 2026-11-17 | T-026 | Concluída | CartBadge.test: 2 tipos com quantidades diferentes somam 5; atualiza após decremento/remoção | `feat: display total cart quantity` |
 | 2026-11-17 | T-027 | Concluída | Home.test: fluxo card → carrinho atualiza badge e acumula produto repetido | `feat: connect coffee cards to cart` |
+| 2026-11-17 | T-028 | Concluída | CartItem.test: incremento, decremento (ativo em 1), remoção e EmptyCart com link para Home | `feat: build cart item and empty state` |
 
 ## Definition of Done global
 
