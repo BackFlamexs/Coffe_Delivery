@@ -262,7 +262,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** consumidores acessam API tipada e provider é obrigatório.
 - **Teste/evidência:** teste de contexto.
 - **Commit:** `feat: expose cart state through context`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** CartContext.test: operações tipadas, referências estáveis e erro fora do provider
+- **Status:** ✅ Concluída.
 
 ### T-025 — Implementar cálculos do carrinho
 - **Objetivo:** derivar unidades, subtotal e total em centavos.
@@ -515,6 +516,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-021 | Concluída | CoffeeCatalog.test: 14 cards renderizados e filtro por categoria (100 testes ok) | `feat: render coffee catalog on home` |
 | 2026-11-17 | T-022 | Concluída | Home.test nos 2 temas; screenshots headless Chrome em 1280px e 390px sem overflow horizontal | `feat: complete responsive home page` |
 | 2026-11-17 | T-023 | Concluída | cartReducer.test: todas as ações, casos de borda e imutabilidade com deepFreeze | `feat: implement immutable cart reducer` |
+| 2026-11-17 | T-024 | Concluída | CartContext.test: operações tipadas, referências estáveis e erro fora do provider | `feat: expose cart state through context` |
 
 ## Definition of Done global
 
