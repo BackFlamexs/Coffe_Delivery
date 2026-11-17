@@ -138,7 +138,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** tokens documentados e contrastes revisados.
 - **Teste/evidência:** inspeção visual dos dois temas.
 - **Commit:** `style: define design tokens and themes`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** themes.test: mesmas chaves nos 2 temas e 14 pares texto/fundo ≥ 4.5:1 (36 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-013 — Configurar estilos globais e fontes
 - **Objetivo:** configurar reset, tipografia, fundo e estilos base.
@@ -491,6 +492,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-009 | Concluída | AppRoutes.test: 3 rotas + navegação sem reload (6 testes ok) | `feat: configure application routes` |
 | 2026-11-17 | T-010 | Concluída | direção registrada no PRD §10.1 e no README | `docs: define coffee brand direction` |
 | 2026-11-17 | T-011 | Concluída | logo-light/dark.svg em src/assets/brand; prompt e decisão em AI_USAGE (Interação 04) | `feat: add ai-generated brand assets` |
+| 2026-11-17 | T-012 | Concluída | themes.test: mesmas chaves nos 2 temas e 14 pares texto/fundo ≥ 4.5:1 (36 testes ok) | `style: define design tokens and themes` |
 
 ## Definition of Done global
 
