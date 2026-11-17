@@ -86,7 +86,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** dependências compatíveis e sem imports não resolvidos.
 - **Teste/evidência:** build e teste mínimo de configuração.
 - **Commit:** `chore: add app and test dependencies`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** npm test: 1 passed; build ok. jsdom fixado em ^26 por compatibilidade com Node 22.11
+- **Status:** ✅ Concluída.
 
 ### T-008 — Criar estrutura de diretórios e aliases
 - **Objetivo:** organizar pastas por responsabilidade.
@@ -481,6 +482,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-004 | Concluída | plano revisado; ordem T-001→T-048 mantida | `docs: approve implementation task plan` |
 | 2026-11-17 | T-005 | Concluída | tsc strict ok; npm run build ok (223 kB js) | `chore: initialize vite react typescript app` |
 | 2026-11-17 | T-006 | Concluída | git status limpo; typecheck e lint executados sem erro | `chore: configure project tooling` |
+| 2026-11-17 | T-007 | Concluída | npm test: 1 passed; build ok. jsdom fixado em ^26 por compatibilidade com Node 22.11 | `chore: add app and test dependencies` |
 
 ## Definition of Done global
 
