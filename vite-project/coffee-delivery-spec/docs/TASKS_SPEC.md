@@ -272,7 +272,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** cálculos puros e sem ponto flutuante monetário.
 - **Teste/evidência:** testes para carrinho vazio, múltiplos produtos e quantidades.
 - **Commit:** `feat: add cart totals and currency utilities`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** cart.test + currency.test: vazio, múltiplos itens, centavos inteiros, ids inexistentes (134 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-026 — Criar CartBadge
 - **Objetivo:** mostrar total de unidades no Header.
@@ -517,6 +518,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-022 | Concluída | Home.test nos 2 temas; screenshots headless Chrome em 1280px e 390px sem overflow horizontal | `feat: complete responsive home page` |
 | 2026-11-17 | T-023 | Concluída | cartReducer.test: todas as ações, casos de borda e imutabilidade com deepFreeze | `feat: implement immutable cart reducer` |
 | 2026-11-17 | T-024 | Concluída | CartContext.test: operações tipadas, referências estáveis e erro fora do provider | `feat: expose cart state through context` |
+| 2026-11-17 | T-025 | Concluída | cart.test + currency.test: vazio, múltiplos itens, centavos inteiros, ids inexistentes (134 testes ok) | `feat: add cart totals and currency utilities` |
 
 ## Definition of Done global
 
