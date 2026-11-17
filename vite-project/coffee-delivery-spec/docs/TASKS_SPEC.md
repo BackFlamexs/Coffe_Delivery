@@ -426,7 +426,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** não inventa pedido e oferece retorno à Home.
 - **Teste/evidência:** teste de rota sem snapshot.
 - **Commit:** `fix: handle missing order confirmation`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** Success.test: sem snapshot, JSON corrompido e snapshot adulterado mostram estado vazio com retorno à Home
+- **Status:** ✅ Concluída.
 
 ## Fase 7 — Responsividade, acessibilidade e qualidade
 
@@ -547,6 +548,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-037 | Concluída | order.test: dados copiados, complemento, independência do carrinho/catálogo, imutabilidade e ids únicos | `feat: create immutable order snapshot` |
 | 2026-11-17 | T-038 | Concluída | ConfirmOrder.test: snapshot salvo antes de limpar carrinho, carrinho mantido se storage falhar, parseOrder rejeita dados adulterados | `feat: confirm order and clear cart safely` |
 | 2026-11-17 | T-039 | Concluída | Success.test: endereço, pagamento, itens com nome/preço do snapshot e totais (R$ 40,80) | `feat: display completed order summary` |
+| 2026-11-17 | T-040 | Concluída | Success.test: sem snapshot, JSON corrompido e snapshot adulterado mostram estado vazio com retorno à Home | `fix: handle missing order confirmation` |
 
 ## Definition of Done global
 
