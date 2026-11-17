@@ -344,7 +344,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** trata CEP inválido, não encontrado, resposta parcial, HTTP/rede e cancelamento/obsolescência.
 - **Teste/evidência:** testes mockados de todos os cenários.
 - **Commit:** `feat: integrate viacep lookup service`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** viaCep.test (fetch mockado): sucesso, CEP malformado, não encontrado, resposta parcial, rede, HTTP, JSON inválido, cache, abort e resposta obsoleta
+- **Status:** ✅ Concluída.
 
 ### T-033 — Criar DeliveryAddressForm
 - **Objetivo:** construir formulário de endereço com React Hook Form.
@@ -531,6 +532,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-029 | Concluída | cartStorage.test: hidratação, persistência, JSON inválido, formato antigo, storage que lança erro e sync entre abas (157 testes ok) | `feat: persist cart in local storage` |
 | 2026-11-17 | T-030 | Concluída | CartSummary.test: R$ 55,50 + R$ 5,00 = R$ 60,50 e slot de ação | `feat: display cart financial summary` |
 | 2026-11-17 | T-031 | Concluída | checkoutSchema.test: CEP normalizado/inválido, obrigatórios, UF, complemento opcional e pagamento (183 testes ok) | `feat: validate checkout with zod` |
+| 2026-11-17 | T-032 | Concluída | viaCep.test (fetch mockado): sucesso, CEP malformado, não encontrado, resposta parcial, rede, HTTP, JSON inválido, cache, abort e resposta obsoleta | `feat: integrate viacep lookup service` |
 
 ## Definition of Done global
 
