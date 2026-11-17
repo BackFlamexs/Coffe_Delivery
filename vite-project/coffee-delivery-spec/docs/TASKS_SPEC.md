@@ -292,7 +292,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** adicionar produto atualiza estado e badge.
 - **Teste/evidência:** teste de fluxo card → carrinho.
 - **Commit:** `feat: connect coffee cards to cart`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** Home.test: fluxo card → carrinho atualiza badge e acumula produto repetido
+- **Status:** ✅ Concluída.
 
 ### T-028 — Criar CartItem e EmptyCart
 - **Objetivo:** apresentar item, controles e estado vazio.
@@ -521,6 +522,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-024 | Concluída | CartContext.test: operações tipadas, referências estáveis e erro fora do provider | `feat: expose cart state through context` |
 | 2026-11-17 | T-025 | Concluída | cart.test + currency.test: vazio, múltiplos itens, centavos inteiros, ids inexistentes (134 testes ok) | `feat: add cart totals and currency utilities` |
 | 2026-11-17 | T-026 | Concluída | CartBadge.test: 2 tipos com quantidades diferentes somam 5; atualiza após decremento/remoção | `feat: display total cart quantity` |
+| 2026-11-17 | T-027 | Concluída | Home.test: fluxo card → carrinho atualiza badge e acumula produto repetido | `feat: connect coffee cards to cart` |
 
 ## Definition of Done global
 
