@@ -126,6 +126,8 @@ coffee-delivery/
 │   │   ├── setup.ts
 │   │   ├── fixtures/
 │   │   └── helpers/
+│   ├── config/
+│   │   └── constants.ts         # taxa de entrega, limites e chaves de storage
 │   ├── App.tsx
 │   └── main.tsx
 ├── docs/

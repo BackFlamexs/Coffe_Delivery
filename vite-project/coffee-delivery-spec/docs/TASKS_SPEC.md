@@ -96,7 +96,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** estrutura aprovada e imports funcionando.
 - **Teste/evidência:** typecheck e build.
 - **Commit:** `chore: organize application structure`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** alias @/ em vite e tsconfig; typecheck, 2 testes e build ok
+- **Status:** ✅ Concluída.
 
 ### T-009 — Configurar rotas básicas
 - **Objetivo:** criar rotas Home, Checkout e Success com páginas provisórias.
@@ -483,6 +484,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-005 | Concluída | tsc strict ok; npm run build ok (223 kB js) | `chore: initialize vite react typescript app` |
 | 2026-11-17 | T-006 | Concluída | git status limpo; typecheck e lint executados sem erro | `chore: configure project tooling` |
 | 2026-11-17 | T-007 | Concluída | npm test: 1 passed; build ok. jsdom fixado em ^26 por compatibilidade com Node 22.11 | `chore: add app and test dependencies` |
+| 2026-11-17 | T-008 | Concluída | alias @/ em vite e tsconfig; typecheck, 2 testes e build ok | `chore: organize application structure` |
 
 ## Definition of Done global
 
