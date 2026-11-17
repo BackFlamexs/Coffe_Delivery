@@ -334,7 +334,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** schema valida obrigatórios, CEP normalizado, UF e complemento opcional.
 - **Teste/evidência:** testes de entradas válidas e inválidas.
 - **Commit:** `feat: validate checkout with zod`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** checkoutSchema.test: CEP normalizado/inválido, obrigatórios, UF, complemento opcional e pagamento (183 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-032 — Criar serviço ViaCEP
 - **Objetivo:** consultar API pública e normalizar resposta.
@@ -529,6 +530,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-028 | Concluída | CartItem.test: incremento, decremento (ativo em 1), remoção e EmptyCart com link para Home | `feat: build cart item and empty state` |
 | 2026-11-17 | T-029 | Concluída | cartStorage.test: hidratação, persistência, JSON inválido, formato antigo, storage que lança erro e sync entre abas (157 testes ok) | `feat: persist cart in local storage` |
 | 2026-11-17 | T-030 | Concluída | CartSummary.test: R$ 55,50 + R$ 5,00 = R$ 60,50 e slot de ação | `feat: display cart financial summary` |
+| 2026-11-17 | T-031 | Concluída | checkoutSchema.test: CEP normalizado/inválido, obrigatórios, UF, complemento opcional e pagamento (183 testes ok) | `feat: validate checkout with zod` |
 
 ## Definition of Done global
 
