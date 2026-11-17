@@ -374,7 +374,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** checkout responsivo, estado vazio e formulário integrados.
 - **Teste/evidência:** teste de renderização e fluxo principal.
 - **Commit:** `feat: assemble checkout page`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** Checkout.test: estado vazio, itens+endereço+pagamento+resumo, totais e envio válido; screenshots 1280px claro e 390px escuro
+- **Status:** ✅ Concluída.
 
 ### T-036 — Bloquear finalização inválida
 - **Objetivo:** validar carrinho, IDs de produtos e formulário antes de confirmar.
@@ -537,6 +538,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-032 | Concluída | viaCep.test (fetch mockado): sucesso, CEP malformado, não encontrado, resposta parcial, rede, HTTP, JSON inválido, cache, abort e resposta obsoleta | `feat: integrate viacep lookup service` |
 | 2026-11-17 | T-033 | Concluída | DeliveryAddressForm.test: máscara, autopreenchimento, número/complemento preservados, loading, não encontrado, falha + nova tentativa, resposta parcial, erros acessíveis | `feat: build delivery address form` |
 | 2026-11-17 | T-034 | Concluída | PaymentMethodSelector.test: 3 opções sem pré-seleção, obrigatório com erro acessível, sem fetch, seleção por setas | `feat: add payment method selector` |
+| 2026-11-17 | T-035 | Concluída | Checkout.test: estado vazio, itens+endereço+pagamento+resumo, totais e envio válido; screenshots 1280px claro e 390px escuro | `feat: assemble checkout page` |
 
 ## Definition of Done global
 
