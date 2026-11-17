@@ -406,7 +406,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** pedido fica persistido e carrinho é limpo somente após snapshot salvo.
 - **Teste/evidência:** teste de ordem das operações.
 - **Commit:** `feat: confirm order and clear cart safely`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** ConfirmOrder.test: snapshot salvo antes de limpar carrinho, carrinho mantido se storage falhar, parseOrder rejeita dados adulterados
+- **Status:** ✅ Concluída.
 
 ### T-039 — Criar OrderSuccess
 - **Objetivo:** apresentar dados do pedido concluído.
@@ -543,6 +544,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-035 | Concluída | Checkout.test: estado vazio, itens+endereço+pagamento+resumo, totais e envio válido; screenshots 1280px claro e 390px escuro | `feat: assemble checkout page` |
 | 2026-11-17 | T-036 | Concluída | CheckoutGuards.test: carrinho vazio, produto inexistente, endereço inválido e pagamento ausente bloqueiam (225 testes ok) | `fix: prevent invalid order submission` |
 | 2026-11-17 | T-037 | Concluída | order.test: dados copiados, complemento, independência do carrinho/catálogo, imutabilidade e ids únicos | `feat: create immutable order snapshot` |
+| 2026-11-17 | T-038 | Concluída | ConfirmOrder.test: snapshot salvo antes de limpar carrinho, carrinho mantido se storage falhar, parseOrder rejeita dados adulterados | `feat: confirm order and clear cart safely` |
 
 ## Definition of Done global
 
