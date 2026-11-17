@@ -210,7 +210,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** não aceita zero, negativo, decimal ou valor inválido na ação de adicionar.
 - **Teste/evidência:** testes de limites e interação.
 - **Commit:** `feat: add validated quantity control`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** quantity.test + QuantityInput.test: limites, digitação inválida (0, -3, 2.5, abc, 50) e blur (94 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-020 — Criar CoffeeCard
 - **Objetivo:** apresentar informações do café e controle de quantidade.
@@ -505,6 +506,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-016 | Concluída | typecheck ok; nenhum any em src/types | `feat: define application domain types` |
 | 2026-11-17 | T-017 | Concluída | coffees.test: 14 cafés válidos, ids únicos, imagens existentes (61 testes ok) | `feat: add typed coffee catalog` |
 | 2026-11-17 | T-018 | Concluída | Header.test: marca, links, ordem de Tab e troca de logo por tema (64 testes ok) | `feat: build shared header and page layout` |
+| 2026-11-17 | T-019 | Concluída | quantity.test + QuantityInput.test: limites, digitação inválida (0, -3, 2.5, abc, 50) e blur (94 testes ok) | `feat: add validated quantity control` |
 
 ## Definition of Done global
 
