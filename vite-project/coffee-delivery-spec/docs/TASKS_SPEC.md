@@ -240,7 +240,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** Home funcional e responsiva, alinhada ao design aprovado.
 - **Teste/evidência:** smoke test desktop/mobile.
 - **Commit:** `feat: complete responsive home page`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** Home.test nos 2 temas; screenshots headless Chrome em 1280px e 390px sem overflow horizontal
+- **Status:** ✅ Concluída.
 
 ## Fase 4 — Carrinho e persistência
 
@@ -511,6 +512,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-019 | Concluída | quantity.test + QuantityInput.test: limites, digitação inválida (0, -3, 2.5, abc, 50) e blur (94 testes ok) | `feat: add validated quantity control` |
 | 2026-11-17 | T-020 | Concluída | CoffeeCard.test: imagem, nome, descrição, preço, tags e adição com quantidade (96 testes ok) | `feat: build coffee product card` |
 | 2026-11-17 | T-021 | Concluída | CoffeeCatalog.test: 14 cards renderizados e filtro por categoria (100 testes ok) | `feat: render coffee catalog on home` |
+| 2026-11-17 | T-022 | Concluída | Home.test nos 2 temas; screenshots headless Chrome em 1280px e 390px sem overflow horizontal | `feat: complete responsive home page` |
 
 ## Definition of Done global
 
