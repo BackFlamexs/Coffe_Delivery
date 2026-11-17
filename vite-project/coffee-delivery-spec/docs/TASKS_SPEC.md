@@ -354,7 +354,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** campos, mensagens, loading e preenchimento automático funcionam; número e complemento não são sobrescritos.
 - **Teste/evidência:** testes de preenchimento e erros acessíveis.
 - **Commit:** `feat: build delivery address form`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** DeliveryAddressForm.test: máscara, autopreenchimento, número/complemento preservados, loading, não encontrado, falha + nova tentativa, resposta parcial, erros acessíveis
+- **Status:** ✅ Concluída.
 
 ### T-034 — Criar PaymentMethodSelector
 - **Objetivo:** permitir escolher crédito, débito ou dinheiro.
@@ -533,6 +534,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-030 | Concluída | CartSummary.test: R$ 55,50 + R$ 5,00 = R$ 60,50 e slot de ação | `feat: display cart financial summary` |
 | 2026-11-17 | T-031 | Concluída | checkoutSchema.test: CEP normalizado/inválido, obrigatórios, UF, complemento opcional e pagamento (183 testes ok) | `feat: validate checkout with zod` |
 | 2026-11-17 | T-032 | Concluída | viaCep.test (fetch mockado): sucesso, CEP malformado, não encontrado, resposta parcial, rede, HTTP, JSON inválido, cache, abort e resposta obsoleta | `feat: integrate viacep lookup service` |
+| 2026-11-17 | T-033 | Concluída | DeliveryAddressForm.test: máscara, autopreenchimento, número/complemento preservados, loading, não encontrado, falha + nova tentativa, resposta parcial, erros acessíveis | `feat: build delivery address form` |
 
 ## Definition of Done global
 
