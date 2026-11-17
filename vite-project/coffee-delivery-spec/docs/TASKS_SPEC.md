@@ -158,7 +158,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** todas as telas recebem tema atual e preferência sobrevive a refresh.
 - **Teste/evidência:** teste de alternância e storage.
 - **Commit:** `feat: add persistent light and dark themes`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** ThemeToggle.test: alternância, persistência, restauração e valores inválidos (43 testes ok)
+- **Status:** ✅ Concluída.
 
 ### T-015 — Preparar favicon e assets finais
 - **Objetivo:** integrar logo aprovada e favicon.
@@ -495,6 +496,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-011 | Concluída | logo-light/dark.svg em src/assets/brand; prompt e decisão em AI_USAGE (Interação 04) | `feat: add ai-generated brand assets` |
 | 2026-11-17 | T-012 | Concluída | themes.test: mesmas chaves nos 2 temas e 14 pares texto/fundo ≥ 4.5:1 (36 testes ok) | `style: define design tokens and themes` |
 | 2026-11-17 | T-013 | Concluída | build ok; GlobalStyle com reset, fontes Baloo 2/Roboto, foco visível e reduced-motion | `style: configure global styles` |
+| 2026-11-17 | T-014 | Concluída | ThemeToggle.test: alternância, persistência, restauração e valores inválidos (43 testes ok) | `feat: add persistent light and dark themes` |
 
 ## Definition of Done global
 
