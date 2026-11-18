@@ -468,7 +468,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** lint, typecheck, testes e build passam; sem erros conhecidos no console.
 - **Teste/evidência:** anexar saída real dos comandos.
 - **Commit:** `refactor: finalize quality review`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** lint 0 problemas; typecheck ok; 262 testes ok; build ok (JS 492 kB / 153 kB gzip); npm audit --omit=dev: 0 vulnerabilidades; Chrome headless sem erros de console nas 3 rotas (captura validada com teste de sanidade); 17 SVGs embutidos, nenhum asset ausente; código morto removido (removeStorage, clampQuantity)
+- **Status:** ✅ Concluída.
 
 ## Fase 8 — Documentação e entrega
 
@@ -555,6 +556,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-041 | Concluída | Chrome headless: 3 rotas × 320/360/768/1024/1280px × 2 temas sem overflow horizontal (scrollWidth = clientWidth), com carrinho de 99 unidades e endereço longo; screenshots inspecionados | `style: refine responsive layouts` |
 | 2026-11-17 | T-042 | Concluída | axe-core no jsdom (a11y.test, com teste de sanidade) e no Chrome real com color-contrast: 0 violações em 4 telas × 2 temas × 1280/375px. Corrigidos contraste do texto 'Delivery' (3.14→AA) e label-content-name-mismatch no link da marca. Checklist manual: skip link, 1 h1 por página, foco visível, labels/erros associados, rádios nativos, estados com ícone+texto | `fix: improve interface accessibility` |
 | 2026-11-17 | T-043 | Concluída | npm test: 263 testes ok; npm run test:coverage (3 execuções estáveis): 96.59% statements, 91.57% branches, 97.29% funções, 97.54% linhas. purchaseFlow.test cobre compra completa com refresh do carrinho, do pedido e do tema | `test: cover core shopping flows` |
+| 2026-11-17 | T-044 | Concluída | lint 0 problemas; typecheck ok; 262 testes ok; build ok (JS 492 kB / 153 kB gzip); npm audit --omit=dev: 0 vulnerabilidades; Chrome headless sem erros de console nas 3 rotas (captura validada com teste de sanidade); 17 SVGs embutidos, nenhum asset ausente; código morto removido (removeStorage, clampQuantity) | `refactor: finalize quality review` |
 
 ## Definition of Done global
 
