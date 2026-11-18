@@ -500,7 +500,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** build publicado e fluxo demonstrável; URL real registrada.
 - **Teste/evidência:** smoke test na URL publicada.
 - **Commit:** `chore: prepare production deployment`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** `vercel.json` e `public/_redirects` criados; `npm run build` ok; smoke test no build de produção via `vite preview`: `/`, `/checkout`, `/success`, rota inexistente e `/favicon.svg` respondem 200. **Não publicado:** o deploy exige conta do estudante (Vercel/Netlify) e não foi feito pela IA.
+- **Status:** ⛔ Bloqueada (parcial) — falta publicar e registrar a URL real.
 
 ### T-048 — Revisão final de rastreabilidade
 - **Objetivo:** verificar cada RF/RN/RNF contra implementação e evidência.
@@ -561,6 +562,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-044 | Concluída | lint 0 problemas; typecheck ok; 262 testes ok; build ok (JS 492 kB / 153 kB gzip); npm audit --omit=dev: 0 vulnerabilidades; Chrome headless sem erros de console nas 3 rotas (captura validada com teste de sanidade); 17 SVGs embutidos, nenhum asset ausente; código morto removido (removeStorage, clampQuantity) | `refactor: finalize quality review` |
 | 2026-11-17 | T-045 | Concluída | AI_USAGE: 5 interações reais com prompt, objetivo, resumo, decisão e evidência; decisões não revisadas marcadas como pendentes; corrigida a Interação 04, que afirmava indevidamente aprovação do estudante | `docs: record ai-assisted development` |
 | 2026-11-17 | T-046 | Concluída | README completo: instalação, scripts, versões efetivas, arquitetura, decisões, acessibilidade, privacidade, branding e limitações; seguido do zero não foi possível em ambiente limpo separado — comandos validados neste ambiente | `docs: complete project documentation` |
+| 2026-11-17 | T-047 | Bloqueada (parcial) | config de deploy pronta e build validado; sem URL publicada | `chore: prepare production deployment` |
 
 ## Definition of Done global
 
