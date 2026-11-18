@@ -490,7 +490,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** pessoa externa consegue instalar, executar e compreender o projeto; branding documentado.
 - **Teste/evidência:** seguir README em ambiente limpo, se possível.
 - **Commit:** `docs: complete project documentation`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** README completo: instalação, scripts, versões efetivas, arquitetura, decisões, acessibilidade, privacidade, branding e limitações; seguido do zero não foi possível em ambiente limpo separado — comandos validados neste ambiente
+- **Status:** ✅ Concluída.
 
 ### T-047 — Preparar deploy e demonstração
 - **Objetivo:** publicar SPA e preparar apresentação do fluxo.
@@ -559,6 +560,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-043 | Concluída | npm test: 263 testes ok; npm run test:coverage (3 execuções estáveis): 96.59% statements, 91.57% branches, 97.29% funções, 97.54% linhas. purchaseFlow.test cobre compra completa com refresh do carrinho, do pedido e do tema | `test: cover core shopping flows` |
 | 2026-11-17 | T-044 | Concluída | lint 0 problemas; typecheck ok; 262 testes ok; build ok (JS 492 kB / 153 kB gzip); npm audit --omit=dev: 0 vulnerabilidades; Chrome headless sem erros de console nas 3 rotas (captura validada com teste de sanidade); 17 SVGs embutidos, nenhum asset ausente; código morto removido (removeStorage, clampQuantity) | `refactor: finalize quality review` |
 | 2026-11-17 | T-045 | Concluída | AI_USAGE: 5 interações reais com prompt, objetivo, resumo, decisão e evidência; decisões não revisadas marcadas como pendentes; corrigida a Interação 04, que afirmava indevidamente aprovação do estudante | `docs: record ai-assisted development` |
+| 2026-11-17 | T-046 | Concluída | README completo: instalação, scripts, versões efetivas, arquitetura, decisões, acessibilidade, privacidade, branding e limitações; seguido do zero não foi possível em ambiente limpo separado — comandos validados neste ambiente | `docs: complete project documentation` |
 
 ## Definition of Done global
 
