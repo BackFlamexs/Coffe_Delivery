@@ -1,7 +1,7 @@
 ---
 title: "Coffee Delivery — Implementation Tasks"
 version: "1.0.0"
-status: "Approved — in progress"
+status: "Implemented — T-047 partially blocked (deploy) — pending student review"
 last_updated: "2026-11-17"
 ---
 
@@ -510,7 +510,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** requisitos atendidos ou pendências explicitamente documentadas; SPEC atualizados.
 - **Teste/evidência:** matriz final de aceite revisada pelo estudante.
 - **Commit:** `docs: finalize spec traceability`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** matriz final RF/RN/RNF em TECH_SPEC §20 (29 ✅, 3 ⚠️ documentadas); divergências em §21; status dos SPEC corrigidos para 'pendente de revisão do estudante'; verificação final: 262 testes, lint, typecheck e build ok
+- **Status:** ✅ Concluída.
 
 ## Registro de execução
 
@@ -563,6 +564,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-045 | Concluída | AI_USAGE: 5 interações reais com prompt, objetivo, resumo, decisão e evidência; decisões não revisadas marcadas como pendentes; corrigida a Interação 04, que afirmava indevidamente aprovação do estudante | `docs: record ai-assisted development` |
 | 2026-11-17 | T-046 | Concluída | README completo: instalação, scripts, versões efetivas, arquitetura, decisões, acessibilidade, privacidade, branding e limitações; seguido do zero não foi possível em ambiente limpo separado — comandos validados neste ambiente | `docs: complete project documentation` |
 | 2026-11-17 | T-047 | Bloqueada (parcial) | config de deploy pronta e build validado; sem URL publicada | `chore: prepare production deployment` |
+| 2026-11-17 | T-048 | Concluída | matriz final RF/RN/RNF em TECH_SPEC §20 (29 ✅, 3 ⚠️ documentadas); divergências em §21; status dos SPEC corrigidos para 'pendente de revisão do estudante'; verificação final: 262 testes, lint, typecheck e build ok | `docs: finalize spec traceability` |
 
 ## Definition of Done global
 
