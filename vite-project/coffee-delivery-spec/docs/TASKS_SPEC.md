@@ -458,7 +458,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** testes cobrem reducer, cálculo, schema, CEP, persistência e compra.
 - **Teste/evidência:** `npm run test` concluído com sucesso.
 - **Commit:** `test: cover core shopping flows`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** npm test: 263 testes ok; npm run test:coverage (3 execuções estáveis): 96.59% statements, 91.57% branches, 97.29% funções, 97.54% linhas. purchaseFlow.test cobre compra completa com refresh do carrinho, do pedido e do tema
+- **Status:** ✅ Concluída.
 
 ### T-044 — Executar revisão de qualidade
 - **Objetivo:** corrigir erros de lint, tipos, build, console e assets.
@@ -553,6 +554,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-040 | Concluída | Success.test: sem snapshot, JSON corrompido e snapshot adulterado mostram estado vazio com retorno à Home | `fix: handle missing order confirmation` |
 | 2026-11-17 | T-041 | Concluída | Chrome headless: 3 rotas × 320/360/768/1024/1280px × 2 temas sem overflow horizontal (scrollWidth = clientWidth), com carrinho de 99 unidades e endereço longo; screenshots inspecionados | `style: refine responsive layouts` |
 | 2026-11-17 | T-042 | Concluída | axe-core no jsdom (a11y.test, com teste de sanidade) e no Chrome real com color-contrast: 0 violações em 4 telas × 2 temas × 1280/375px. Corrigidos contraste do texto 'Delivery' (3.14→AA) e label-content-name-mismatch no link da marca. Checklist manual: skip link, 1 h1 por página, foco visível, labels/erros associados, rádios nativos, estados com ícone+texto | `fix: improve interface accessibility` |
+| 2026-11-17 | T-043 | Concluída | npm test: 263 testes ok; npm run test:coverage (3 execuções estáveis): 96.59% statements, 91.57% branches, 97.29% funções, 97.54% linhas. purchaseFlow.test cobre compra completa com refresh do carrinho, do pedido e do tema | `test: cover core shopping flows` |
 
 ## Definition of Done global
 
