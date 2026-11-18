@@ -448,7 +448,8 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 - **Critério de pronto:** controles operáveis por teclado, erros associados e foco visível.
 - **Teste/evidência:** checklist manual e testes de acessibilidade disponíveis.
 - **Commit:** `fix: improve interface accessibility`.
-- **Status:** ⏳ Não iniciada.
+- **Evidência:** axe-core no jsdom (a11y.test, com teste de sanidade) e no Chrome real com color-contrast: 0 violações em 4 telas × 2 temas × 1280/375px. Corrigidos contraste do texto 'Delivery' (3.14→AA) e label-content-name-mismatch no link da marca. Checklist manual: skip link, 1 h1 por página, foco visível, labels/erros associados, rádios nativos, estados com ícone+texto
+- **Status:** ✅ Concluída.
 
 ### T-043 — Cobrir fluxos principais com testes
 - **Objetivo:** completar testes unitários e integração.
@@ -551,6 +552,7 @@ Status possíveis: `⏳ Não iniciada`, `🚧 Em andamento`, `✅ Concluída`, `
 | 2026-11-17 | T-039 | Concluída | Success.test: endereço, pagamento, itens com nome/preço do snapshot e totais (R$ 40,80) | `feat: display completed order summary` |
 | 2026-11-17 | T-040 | Concluída | Success.test: sem snapshot, JSON corrompido e snapshot adulterado mostram estado vazio com retorno à Home | `fix: handle missing order confirmation` |
 | 2026-11-17 | T-041 | Concluída | Chrome headless: 3 rotas × 320/360/768/1024/1280px × 2 temas sem overflow horizontal (scrollWidth = clientWidth), com carrinho de 99 unidades e endereço longo; screenshots inspecionados | `style: refine responsive layouts` |
+| 2026-11-17 | T-042 | Concluída | axe-core no jsdom (a11y.test, com teste de sanidade) e no Chrome real com color-contrast: 0 violações em 4 telas × 2 temas × 1280/375px. Corrigidos contraste do texto 'Delivery' (3.14→AA) e label-content-name-mismatch no link da marca. Checklist manual: skip link, 1 h1 por página, foco visível, labels/erros associados, rádios nativos, estados com ícone+texto | `fix: improve interface accessibility` |
 
 ## Definition of Done global
 
