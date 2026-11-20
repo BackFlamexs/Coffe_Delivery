@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import styled, { type DefaultTheme } from 'styled-components'
-import heroImage from '@/assets/hero.svg'
+import heroImage from '@/assets/hero.png'
 import { CartIcon, CoffeeIcon, PackageIcon, TimerIcon } from '@/components/icons'
 
 type Tone = 'yellowDark' | 'text' | 'yellow' | 'purple'

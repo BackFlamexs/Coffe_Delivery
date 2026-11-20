@@ -1,7 +1,7 @@
 import { coffees, findCoffeeById } from '@/data/coffees'
 import { COFFEE_CATEGORIES } from '@/types/coffee'
 
-const imageFiles = Object.keys(import.meta.glob('/src/assets/coffees/*.svg'))
+const imageFiles = Object.keys(import.meta.glob('/src/assets/coffees/*.png'))
 
 describe('coffee catalog', () => {
   it('has products', () => {
@@ -25,7 +25,7 @@ describe('coffee catalog', () => {
 
   it('has an image file for every product', () => {
     for (const coffee of coffees) {
-      expect(imageFiles).toContain(`/src/assets/coffees/${coffee.id}.svg`)
+      expect(imageFiles).toContain(`/src/assets/coffees/${coffee.id}.png`)
     }
   })
 
