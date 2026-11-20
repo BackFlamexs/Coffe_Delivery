@@ -52,8 +52,10 @@ const FilterButton = styled.button`
 
 const Grid = styled.ul`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  gap: ${({ theme }) => theme.space[8]} ${({ theme }) => theme.space[8]};
+  /* 17.25rem = largura mínima do card (rodapé preço + quantidade + botão); com 15rem o card vazava e encostava no vizinho */
+  grid-template-columns: repeat(auto-fill, minmax(min(17.25rem, 100%), 1fr));
+  /* row gap maior: a xícara sobe para fora do card */
+  gap: ${({ theme }) => theme.space[16]} ${({ theme }) => theme.space[8]};
   margin-top: ${({ theme }) => theme.space[10]};
   list-style: none;
 
