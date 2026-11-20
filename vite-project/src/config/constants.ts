@@ -15,4 +15,5 @@ export const STORAGE_KEYS = {
   cart: 'coffee-delivery:cart:v1',
   theme: 'coffee-delivery:theme:v1',
   lastOrder: 'coffee-delivery:last-order:v1',
+  language: 'coffee-delivery:language:v1',
 } as const
